@@ -47,7 +47,7 @@ export default function SearchEngine() {
         <div>
           <p>In {city} today:</p>
           <ul>
-            <li>Temperature: {weatherData.temperature}°C</li>
+            <li>Temperature: {Math.round(weatherData.temperature)}°C</li>
             <li>Weather: {weatherData.description}</li>
             <li>Humidity: {weatherData.humidity}%</li>
             <li>Wind: {weatherData.wind} km/h</li>
